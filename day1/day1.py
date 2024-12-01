@@ -14,6 +14,7 @@ with open('day1/input_day1.txt') as file:
     sListFirst = sorted(listFirst)
     sListSecond = sorted(listSecond)
 
+# Answer should be in first part: 1765812
 def firstPart():
     result = 0
     for k in range(0, len(listInitial)):        
@@ -25,6 +26,7 @@ def firstPart():
             result += divisionForSecond
     print(result)
 
+# Answer should be in second part: 20520794
 def secondPart():
     result = 0
     for k in range(0, len(listInitial)):
