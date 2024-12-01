@@ -1,7 +1,7 @@
 # Task: Advent of Code 2024, Day 1
 # Source of the task: https://adventofcode.com/2024/day/1
 # Date: 2024-12-01
-with open('input_day1.txt') as file:
+with open('day1/input_day1.txt') as file:
     listInitial = []
     listFirst = []
     listSecond = []
