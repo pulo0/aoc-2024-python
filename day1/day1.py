@@ -1,7 +1,7 @@
 # Task: Advent of Code 2024, Day 1
 # Source of the task: https://adventofcode.com/2024/day/1
 # Date: 2024-12-01
-with open('day1/input_day1.txt') as file:
+with open('input_day1.txt') as file:
     listInitial = []
     listFirst = []
     listSecond = []
@@ -14,10 +14,10 @@ with open('day1/input_day1.txt') as file:
     sListFirst = sorted(listFirst)
     sListSecond = sorted(listSecond)
 
-# Answer should be in first part: 1765812
+
 def firstPart():
     result = 0
-    for k in range(0, len(listInitial)):        
+    for k in range(0, len(listInitial)):
         divisionForFirst = int(sListFirst[k]) - int(sListSecond[k])
         divisionForSecond = int(sListSecond[k]) - int(sListFirst[k])
         if sListFirst[k] > sListSecond[k]:
@@ -26,7 +26,7 @@ def firstPart():
             result += divisionForSecond
     print(result)
 
-# Answer should be in second part: 20520794
+
 def secondPart():
     result = 0
     for k in range(0, len(listInitial)):
@@ -39,8 +39,8 @@ def secondPart():
 
 
 choice = input('Select the answers of the first Advent Of Code day: \n'
-        + 'Part 1 (Press number 1) \n'
-        + 'Part 2 (Press number 2) \n')
+               + 'Part 1 (Press number 1) \n'
+               + 'Part 2 (Press number 2) \n')
 
 if choice == '1':
     firstPart()
