@@ -1,5 +1,5 @@
-# Task: Advent of Code 2024, Day 2
-# Source of the task: https://adventofcode.com/2024/day/2
+# Advent of Code 2024, Day 2
+# Source: https://adventofcode.com/2024/day/2
 # Date: 2024-12-02
 with open('input_day2.txt') as file:
     list_initial = []
