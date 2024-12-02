@@ -1,7 +1,7 @@
 # Task: Advent of Code 2024, Day 2
 # Source of the task: https://adventofcode.com/2024/day/2
 # Date: 2024-12-02
-with open('test.txt') as file:
+with open('input_day2.txt') as file:
     list_initial = []
     for line in file.readlines():
         each_item = list(map(int, line.split()))
@@ -52,7 +52,6 @@ def is_safe(report):
 def is_safe_one_remove(report):
     for i in range(len(report)):
         mod_report = report[:i] + report[i+1:]
-        print(mod_report)
         if is_safe(mod_report):
             return True
     return False
