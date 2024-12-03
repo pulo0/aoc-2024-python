@@ -13,6 +13,6 @@ py dayx.py
 x for selected day
 
 ## Progress
-- [x] Day 1 (Part 1 and 2)
-- [x] Day 2 (Part 1 and 2)
-- [ ] Day 3 
+- [x] Day 1: Historian Hysteria
+- [x] Day 2: Red-Nosed Reports
+- [ ] Day 3: Mull It Over (work in progress)
