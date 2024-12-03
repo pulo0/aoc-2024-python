@@ -34,7 +34,6 @@ def prepare():
 
 def transform_mul(lst):
     srt = re.findall(r'\b\d+\b', lst)
-    print(srt)
     return int(srt[0]) * int(srt[1])
 
 
