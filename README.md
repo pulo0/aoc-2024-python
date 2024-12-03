@@ -15,4 +15,5 @@ x for selected day
 ## Progress
 - [x] Day 1: Historian Hysteria
 - [x] Day 2: Red-Nosed Reports
-- [ ] Day 3: Mull It Over (work in progress)
+- [x] Day 3: Mull It Over
+- [ ] Day 4: TBD

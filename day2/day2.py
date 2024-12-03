@@ -66,7 +66,7 @@ def part_two():
     print(result)
 
 
-choice = input('Select the answers of the first Advent Of Code day: \n'
+choice = input('Select the answers of the second Advent Of Code day: \n'
                + 'Part 1 (Press number 1) \n'
                + 'Part 2 (Press number 2) \n')
 
