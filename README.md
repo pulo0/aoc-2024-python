@@ -7,7 +7,7 @@ Also if you want to go to main page of Advent of Code 2024 then click [here](htt
 In order to run the code, first you need to have an interpreter to Python, obvious and then go to selected day and use command
 
 ```
-py dayx.py
+python -m dayx.dayx.py
 ```
 
 x for selected day
