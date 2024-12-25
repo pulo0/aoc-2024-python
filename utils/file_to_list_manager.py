@@ -15,7 +15,7 @@ def get_file_to_list(file: str):
         return list_initial
     elif choice == 2:
         with open(file, 'r') as f:
-            lst = [list(item.strip()) for item in f.readlines()]
+            lst = [item.strip() for item in f]
         return lst
     else:
         print('You entered wrong option')
