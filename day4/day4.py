@@ -26,5 +26,30 @@ def part_one(grid):
                     result += 1
     print(result)
 
+def part_two(grid):
 
-part_one(lst)
+    row_x, col_y = len(grid), len(grid[0])
+
+    result = 0
+
+    for x in range(row_x - 2):
+        for y in range(col_y - 2):
+            pos_0 = grid[x][y] # Default position, top-left
+            pos_1 = grid[x][y + 2] # position top-right
+            pos_2 = grid[x + 1][y + 1] # middle position
+            pos_3 = grid[x + 2][y] # position, bottom-left
+            pos_4 = grid[x + 2][y + 2] # position, bottom-right
+            if (pos_0 + pos_4 in {'MS', 'SM'}) and (pos_1 + pos_3 in {'MS', 'SM'}) and pos_2 == 'A':
+                result += 1
+    print(result)
+
+choice = input('Select the answers of the third Advent Of Code day: \n'
+               + 'Part 1 (Press number 1) \n'
+               + 'Part 2 (Press number 2) \n')
+
+if choice == '1':
+    part_one(lst)
+elif choice == '2':
+    part_two(lst)
+else:
+    print('Wrong choice')

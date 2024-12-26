@@ -16,4 +16,4 @@ x for selected day
 - [x] Day 1: Historian Hysteria
 - [x] Day 2: Red-Nosed Reports
 - [x] Day 3: Mull It Over
-- [ ] Day 4: TBD
+- [x] Day 4: Ceres Search
