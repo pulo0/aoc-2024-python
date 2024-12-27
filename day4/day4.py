@@ -43,7 +43,7 @@ def part_two(grid):
                 result += 1
     print(result)
 
-choice = input('Select the answers of the third Advent Of Code day: \n'
+choice = input('Select the answers of the forth Advent Of Code day: \n'
                + 'Part 1 (Press number 1) \n'
                + 'Part 2 (Press number 2) \n')
 
